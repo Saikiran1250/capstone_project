@@ -1,0 +1,7 @@
+<suite name="WordPress Suite">
+    <test name="WordPress Test">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
