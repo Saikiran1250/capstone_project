@@ -34,7 +34,6 @@ public class WordPressSteps extends BaseClass {
 
         Assert.assertEquals(download.verifyText(), expected);
 
-        // 🔥 IMPORTANT FIX
         driver.get("https://wordpress.org/");
     }
 
