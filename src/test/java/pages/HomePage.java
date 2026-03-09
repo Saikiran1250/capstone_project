@@ -18,7 +18,7 @@ public class HomePage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    // 🔥 THIS METHOD MUST EXIST
+    
     public void clickGetWordPress() {
 
         By getWordPress = By.cssSelector("a[href='/download/']");
